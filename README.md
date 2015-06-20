@@ -58,3 +58,6 @@ hdfs dfs -ls /tmp/output
 
 hdfs dfs -tail /tmp/output/part-00001
 
+## Note
+
+Everyone is connecting to the server using the same username so to avoid overwriting each other, use unique directory names or unique python application names.

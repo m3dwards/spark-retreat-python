@@ -1,7 +1,11 @@
 ## Using Olympics.csv data:
+
 1: Which country scored the most medals?
+
 2: For “United States”, find the year in which it scored  most medals?
+
 3: List the years when  “United States” scored less than 200 medals?
+
 4: Which player has medals in more than one sport?
 
 

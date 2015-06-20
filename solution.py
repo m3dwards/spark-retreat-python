@@ -14,7 +14,7 @@ if __name__ == "__main__":
     # Athlete,Country,Year,Sport,Gold,Silver,Bronze,Total
     # Yang Yilin,China,2008,Gymnastics,1,0,2,3
 
-    olympic_data = sc.textFile("olympic/input")
+    olympic_data = sc.textFile("hdfs:///tmp/olympic.csv")
 
     def country_medal_map(line):
         country = ""
@@ -36,6 +36,6 @@ if __name__ == "__main__":
 
     top_scoring_country = sc.parallelize(medal_country.take(1))
 
-    top_scoring_country.saveAsTextFile("olympic/output")
+    top_scoring_country.saveAsTextFile("hdfs:///tmp/output")
 
     sc.stop()

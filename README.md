@@ -1,5 +1,11 @@
 ## Using Olympics.csv data:
 
+Example data:
+Athlete,Country,Year,Sport,Gold,Silver,Bronze,Total
+Yang Yilin,China,2008,Gymnastics,1,0,2,3
+
+## Questions
+
 1: Which country scored the most medals?
 
 2: For “United States”, find the year in which it scored  most medals?

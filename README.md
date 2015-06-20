@@ -1,6 +1,6 @@
 ## Using Olympics.csv data:
 
-Example data:
+Example data:  
 Athlete,Country,Year,Sport,Gold,Silver,Bronze,Total  
 Yang Yilin,China,2008,Gymnastics,1,0,2,3
 

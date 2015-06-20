@@ -56,7 +56,7 @@ password !abcd1234
 
 scp ./application.py  admin@10.10.5.96:~/
 
-spark-submit spark-application.py —master local
+spark-submit spark-application.py
 
 hdfs dfs -rm -r /tmp/output
 

@@ -50,7 +50,7 @@ In how many lines does "gold" appear once, twice, three times.
 
 ## Useful commands
 
-ssh admin@10.10.5.96:~/
+ssh admin@10.10.5.96
 
 password !abcd1234
 

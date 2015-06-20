@@ -41,3 +41,20 @@ Questions to answer
 
 In which line can you find the term "starcross'd".  
 In how many lines does "gold" appear once, twice, three times.  
+
+## Useful commands
+
+ssh admin@10.10.5.96:~/
+
+password !abcd1234
+
+scp ./application.py  admin@10.10.5.96:~/
+
+spark-submit spark-application.py —master local
+
+hdfs dfs -rm -r /tmp/output
+
+hdfs dfs -ls /tmp/output
+
+hdfs dfs -tail /tmp/output/part-00001
+
